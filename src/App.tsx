@@ -2,11 +2,11 @@ import { Canvas } from "@react-three/fiber";
 import { Stats } from "@react-three/drei";
 import { FC } from "react";
 
-import MapModel from "./MapModel";
-import CameraController from "./CameraController";
-import SceneBackground from "./SceneBackground";
-import DayLight from "./SceneLigth";
-import UIComponent from "./UI";
+import MapModel from '@components/MapModel/MapModel';
+import CameraController from "@components/CameraController/CameraController";
+import SceneBackground from "@components/SceneBackground/SceneBackground";
+import DayLight from "@components/SceneLight/SceneLigth";
+import UIComponent from "@components/UI/UI";
 
 import "./App.css";
 

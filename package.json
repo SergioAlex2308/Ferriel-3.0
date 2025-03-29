@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sass:build": "sass src/styles/main.scss dist/styles/main.css",
+    "sass:watch": "sass --watch src/styles/main.scss dist/styles/main.css"
   },
   "dependencies": {
     "@react-three/drei": "^10.0.4",
